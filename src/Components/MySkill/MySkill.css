@@ -1,0 +1,109 @@
+.mySkill
+{
+  background: rgba(0, 0, 0, 0.5); 
+  -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+  box-shadow: 0 0 13px 3px rgba(0,0,0,.5); 
+    color: aliceblue;
+    margin-bottom: 90px;
+}
+
+
+  ul {
+    list-style: none;
+  }
+  .skills {
+    
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 90%;
+  }
+  
+  .skills-list {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .skill {
+    float: left;
+    text-align: center;
+    font-size: 5em;
+    padding: 20px;
+  }
+  .skill P
+  {
+    font-size: 20px;
+  }
+  .skill div {
+    width: 100px;
+  }
+  i:hover {
+    cursor: pointer;
+  }
+#HTML
+{
+    color: #e34c26;
+
+}  
+#Css3
+{
+    color: #1572b7;
+}
+#Javascript
+{
+    color: #feb824;
+}
+#typescript
+{
+    color: #007acc;
+}
+#Sass
+{
+    color: #cc6699;
+
+}#React
+{
+    color: #61dafb;
+
+}#Bootstrap
+{
+    color: #feb824;
+
+}
+#Tailwind
+{
+    color: #75aee7;
+
+}#Redux
+{
+    color: #764abc;
+
+}#Git
+{
+    color: #f34f29;
+
+}#Github
+{
+    color: white;
+
+}
+  
+  @media (max-width: 800px) {
+    .skills-list {
+      width: 450px;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 625px) {
+    .skills-list {
+      width: 300px;
+      margin: auto;
+    }
+  }
+  

@@ -1,0 +1,151 @@
+
+* {
+
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.navigation {
+	margin-top: 14px;
+    position: relative;
+	left: 0;
+	right: 0;
+    width: auto;
+	height: 70px;
+	background: #FF5733;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.navigation ul {
+	display: flex;
+	
+}
+
+.navigation ul li {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	list-style: none;
+	z-index: 1;
+}
+
+.navigation ul li a {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-weight: 500;
+}
+
+.navigation ul li a .icon {
+	position: relative;
+	display: block;
+	line-height: 75px;
+	font-size: 1.5em;
+	text-align: center;
+	color: #FFFFFF;
+	transition: 0.5s;
+}
+
+.navigation ul li.active a .icon {
+	transform: translateY(-32px);
+}
+
+.navigation ul li a .text {
+	position: absolute;
+	color: #fff;
+	font-weight: 400;
+	font-size: 0.75em;
+	letter-spacing: 0.05em;
+	opacity: 0;
+	transform: translateY(20px);
+	transition: 0.5s;
+}
+
+.navigation ul li.active a .text {
+	opacity: 1;
+	transform: translateY(10px);
+}
+
+.navigation ul li a .circle {
+	position: absolute;
+	display: block;
+    top: 21.5%;
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	border-radius: 50%;
+	border: 2px solid #FFFFFF;
+	transform: translateY(-40px) scale(0);
+}
+
+.navigation ul li.active a .circle {
+	transition: 0.5s;
+	transition-delay: 0.5s;
+	transform: translateY(-40px) scale(1.1);
+}
+
+.indicator {
+	position: absolute;
+	top: -60%;
+	width: 70px;
+	height: 70px;
+	background: #FF5733;
+	border: 6px solid #1C1C1C;	;
+	overflow: hidden;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+}
+
+
+
+
+.navigation ul li:nth-child(1).active ~ .indicator {
+	transform: translateX(calc(70px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+	transform: translateX(calc(70px * 1));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator {
+	transform: translateX(calc(70px * 2));
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator {
+	transform: translateX(calc(70px * 3));
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator {
+	transform: translateX(calc(70px * 4));
+}
+
+
+/* Original styles for larger screens */
+
+/* ... (your existing CSS code for larger screens) ... */
+
+/* Responsive styles for smaller screens (e.g., max-width: 768px) */
+@media screen and (max-width: 768px) {
+	.navigation {
+	    position: fixed;
+		width: 100%;
+        padding-right: 30px;
+	    bottom: 0;
+		z-index: 9999999;
+	   
+
+}}
+
+
+
+
+

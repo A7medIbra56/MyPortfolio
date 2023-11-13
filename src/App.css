@@ -1,0 +1,41 @@
+
+  @media screen and (max-width: 1468px) {
+
+    .col-12 {
+      width: auto;
+    }
+  
+    .col-md-4 {
+      width: 100%;
+    }
+  
+    .col-md-8 {
+      width: 100%;
+    }
+  }
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .navigation {
+      margin-top: 90px;
+      }
+  
+    .col-12 {
+      width: auto;
+    }
+  
+    .col-md-4 {
+      width: 100%;
+    }
+  
+    .col-md-8 {
+      width: 100%;
+    }
+  }
+  

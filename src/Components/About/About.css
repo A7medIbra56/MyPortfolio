@@ -1,0 +1,31 @@
+.resume{
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.5); 
+  -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+  box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+  color: #fff;
+
+  margin-bottom: 90px;
+  
+}
+.educ
+{
+  padding: 20px;
+}
+.title i
+{
+  background-color: #434343;
+  padding-top: 9px;
+  padding: 10px;
+  border-radius: 20%;
+  border: 3px solid #fff;
+}
+.title h4
+{
+  padding: 6px;
+  margin-left: 8px;
+}
+
+
+
